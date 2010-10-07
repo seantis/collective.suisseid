@@ -22,7 +22,13 @@ def configureSuisseIDPlugin(portal, out):
     print >> out, "Configuring suisseID plugin"
     acl = getToolByName(portal, "acl_users")
     plugin = getattr(acl, 'suisseid')
-    plugin.changeConfiguration(portal.Title(), portal.absolute_url(), '', '', '', '', '/usr/bin/xmlsec1')
+    plugin.changeConfiguration(portal.Title(), 
+                               portal.absolute_url(), 
+                               '', 
+                               'First Name\r\nLast Name', 
+                               '', 
+                               '', 
+                               '/usr/bin/xmlsec1')
 
 
 def activatePlugin(portal, out, plugin):
