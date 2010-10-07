@@ -25,7 +25,8 @@ def configureSuisseIDPlugin(portal, out):
     plugin.changeConfiguration(portal.Title(), 
                                portal.absolute_url(), 
                                '', 
-                               'First Name\r\nLast Name', 
+                               'First Name\r\nLast Name',
+                               '',
                                '', 
                                '', 
                                '/usr/bin/xmlsec1')
