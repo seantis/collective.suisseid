@@ -1,17 +1,14 @@
-.. contents::
+suisseID integration for Plone. 
 
-.. Note!
-   -----
-   Update the following URLs to point to your:
+Learn more about suisseID: http://www.suisseid.ch
 
-   - code repository
-   - bug tracker
-   - questions/comments feedback mail
-   (do not set a real mail, to avoid spams)
+- Code repository: http://github.com/seantis/collective.suisseid
+- Questions and comments to info@seantis.ch
+- Report bugs at http://github.com/seantis/collective.suisseid/issues
 
-   Or remove it if not used.
+Installing instructions can be found in docs/INSTALL.txt.
 
-- Code repository: http://svn.somewhere.com/...
-- Questions and comments to somemailing_list
-- Report bugs at http://bug.somewhere.com/..
-
+Contact us at:
+seantis gmbh
+http://www.seantis.ch
+info@seantis.ch
