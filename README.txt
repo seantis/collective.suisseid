@@ -1,4 +1,5 @@
-suisseID integration for Plone. 
+Overview
+======== 
 
 Learn more about suisseID: http://www.suisseid.ch
 
