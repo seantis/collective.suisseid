@@ -29,7 +29,8 @@ def configureSuisseIDPlugin(portal, out):
                                '',
                                '', 
                                '', 
-                               '/usr/bin/xmlsec1')
+                               '/usr/bin/xmlsec1',
+                               '')
 
 
 def activatePlugin(portal, out, plugin):
