@@ -43,6 +43,6 @@ following section::
   zcml = ...
         collective.suisseid
 
-After you can restart buildout::
+After you can rerun buildout::
 
   $ ./bin/buildout
