@@ -25,7 +25,7 @@ def configureSuisseIDPlugin(portal, out):
     plugin.changeConfiguration(portal.Title(), 
                                portal.absolute_url(), 
                                '', 
-                               'First Name\r\nLast Name',
+                               'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname\r\nhttp://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname',
                                '',
                                '', 
                                '', 
