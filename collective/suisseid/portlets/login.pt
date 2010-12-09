@@ -9,7 +9,7 @@
 
     <dd class="portletItem odd"
         tal:define="ac_provider_url string:__ac_suisseid_provider_url;">
-      <form action=""
+      <form action="view/post_url"
             method="post"
             class="suisseidLoginForm">
 

@@ -25,7 +25,6 @@ class Renderer(base.Renderer):
         base.Renderer.__init__(self, context, request, view, manager, data)
 
         self.portal_state = getMultiAdapter((context, request), name=u'plone_portal_state')
-        #self.pas_info = getMultiAdapter((context, request), name=u'pas_info')
 
     @property
     def available(self):
@@ -42,9 +41,11 @@ class Renderer(base.Renderer):
         plugin = getattr(acl, 'suisseid')
         return plugin.getProviders().items()
 
-    def login_form(self):
-        return '%s/login_form' % self.portal_state.portal_url()
-
+    def post_url(self):
+        acl = getToolByName(self, "acl_users")
+        plugin = getattr(acl, 'suisseid')
+        config = plugin._saml2_config()
+        return config["service"]["sp"]['url']
 
     render = ViewPageTemplateFile('login.pt')
 
