@@ -9,9 +9,9 @@
 
     <dd class="portletItem odd"
         tal:define="ac_provider_url string:__ac_suisseid_provider_url;">
-      <form action="view/post_url"
-            method="post"
-            class="suisseidLoginForm">
+      <form method="post"
+            class="suisseidLoginForm"
+            tal:attributes="action view/post_url">
 
         <input type="hidden" name="form.submitted" value="1" />
         <input type="hidden" name="came_from" value=""
