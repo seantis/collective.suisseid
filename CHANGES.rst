@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.1 ()
+------
+
+- Update pySAML2 download URL in docs.
+
 0.1b3 (2010-12-09)
 ------------------
 
