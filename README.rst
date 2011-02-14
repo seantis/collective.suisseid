@@ -25,7 +25,7 @@ Requirements
 
 * pySAML2
 
-  Download from http://launchpad.net/pysaml2/0.1/0.1/+download/pysaml2.0.1.tgz
+  Download from http://launchpad.net/pysaml2/main/0.1/+download/pysaml2.0.1.tgz
     
   Install with python setup.py install
   
